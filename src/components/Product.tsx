@@ -20,7 +20,7 @@ const img:string=new URL(`../images/${product.sku}.jpg`,import.meta.url).href
 console.log(img);
 
 const onAddToCart=()=>dispatch({type:REDUCER_ACTIONS.ADD,payload:{...product,qty:1}})
- const itemInCart=inCart ? '➡ Item in Cart ✔ &#10004;' : null
+ const itemInCart=inCart ? '➡ Item in Cart ✔' : null
 
  const content=
  <article className="product">
