@@ -21,7 +21,7 @@ if(products?.length){
   })
 }
 const content =(
-  <main className="mainmain--products">
+  <main className="main main--products">
     {pageContent}
   </main>
 )
