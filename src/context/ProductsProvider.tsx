@@ -21,9 +21,24 @@ const initState:ProductType[]=[
     },
     {
         "sku":"item0003",
-        "name":"Deluxe Widget",
+        "name":"Widget 123",
         "price":29.99
+    },
+    {
+        "sku":"item0004",
+        "name":"Widget 02",
+        "price":69.99
     }
+,{
+    "sku":"item0005",
+    "name":"1245 Widget",
+    "price":12.99
+},
+{
+    "sku":"item0006",
+    "name":"Deluxe Widget",
+    "price":44.99
+}
 ]
 export type UseProductsContextType={products:ProductType[]}
 
